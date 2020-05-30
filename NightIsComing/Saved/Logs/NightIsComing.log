@@ -2778,3 +2778,460 @@ Script call stack:
 [2020.05.30-18.04.56:165][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.05.30-18.04.56:168][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
 [2020.05.30-18.04.56:182][574]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.05.30-18.07.45:810][528]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.30-18.07.45:817][528]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.30-18.08.55:634][312]BlueprintLog: New page: Compile BP_Camera
+[2020.05.30-18.08.55:908][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.05.30-18.08.57:191][392]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.08.57:213][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.08.57:213][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-18.08.57:213][392]PIE: New page: PIE session: L_Test (May 30, 2020, 10:08:57 AM)
+[2020.05.30-18.08.57:213][392]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.08.57:217][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
+[2020.05.30-18.08.57:218][392]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.08.57:218][392]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2020.05.30-18.08.57:218][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.004916s)
+[2020.05.30-18.08.57:274][392]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.08.57:274][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.08.57:274][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.08.57:275][392]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.08.57:275][392]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.08.57:332][392]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.08.57:340][392]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.08.57:342][392]LogInit: FAudioDevice initialized.
+[2020.05.30-18.08.57:353][392]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.08.57:354][392]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.08.57
+[2020.05.30-18.08.57:354][392]LogWorld: Bringing up level for play took: 0.000656
+[2020.05.30-18.08.57:354][392]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.05.30-18.08.57:357][392]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test -0.733
+[2020.05.30-18.08.57:357][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.09.41:812][857]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.09.41:812][857]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.09.41:812][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.09.41:812][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.09.41:812][857]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.09.41:812][857]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.09.41:812][857]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.09.41:812][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.09.41:848][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.09.41:848][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.09.41:853][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.09.41:915][857]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.09.41:918][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.09.41:922][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.05.30-18.09.41:934][858]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.05.30-18.10.32:366][491]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.30-18.10.32:370][491]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.30-18.10.33:172][534]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.10.33:194][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.10.33:194][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-18.10.33:194][534]PIE: New page: PIE session: L_Test (May 30, 2020, 10:10:33 AM)
+[2020.05.30-18.10.33:194][534]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.10.33:198][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003897s)
+[2020.05.30-18.10.33:199][534]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.10.33:199][534]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2020.05.30-18.10.33:199][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.004838s)
+[2020.05.30-18.10.33:251][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.05.30-18.10.33:254][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.10.33:254][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.10.33:255][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.10.33:255][534]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.10.33:255][534]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.10.33:312][534]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.10.33:320][534]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.10.33:322][534]LogInit: FAudioDevice initialized.
+[2020.05.30-18.10.33:327][534]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.10.33:327][534]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.10.33
+[2020.05.30-18.10.33:328][534]LogWorld: Bringing up level for play took: 0.000602
+[2020.05.30-18.10.33:328][534]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.05.30-18.10.33:329][534]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test -0.76
+[2020.05.30-18.10.33:330][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.10.44:396][570]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.10.44:396][570]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.10.44:396][570]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.10.44:396][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.10.44:396][570]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.10.44:396][570]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.10.44:396][570]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.10.44:396][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.10.44:419][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.10.44:420][570]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.10.44:424][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.10.44:481][570]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.10.44:484][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.10.44:488][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.05.30-18.10.44:547][571]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.05.30-18.11.13:544][676]BlueprintLog: New page: Compile BP_Camera
+[2020.05.30-18.11.13:825][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.05.30-18.11.46:216][392]BlueprintLog: New page: Compile BP_Camera
+[2020.05.30-18.11.46:491][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.05.30-18.11.47:841][473]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.11.47:863][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.11.47:863][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.30-18.11.47:863][473]PIE: New page: PIE session: L_Test (May 30, 2020, 10:11:47 AM)
+[2020.05.30-18.11.47:863][473]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.11.47:867][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003826s)
+[2020.05.30-18.11.47:868][473]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.11.47:868][473]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2020.05.30-18.11.47:868][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.004981s)
+[2020.05.30-18.11.47:945][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.11.47:945][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.11.47:945][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.11.47:946][473]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.11.47:946][473]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.11.48:003][473]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.11.48:010][473]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.11.48:012][473]LogInit: FAudioDevice initialized.
+[2020.05.30-18.11.48:018][473]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.11.48:019][473]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.11.48
+[2020.05.30-18.11.48:019][473]LogWorld: Bringing up level for play took: 0.000547
+[2020.05.30-18.11.48:019][473]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2020.05.30-18.11.48:021][473]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test -0.068
+[2020.05.30-18.11.48:021][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.15:184][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.15:184][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.15:184][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.15:184][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.15:184][183]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.15:184][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.15:184][183]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.12.15:185][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.15:208][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.12.15:208][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.15:213][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.15:273][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.15:276][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.15:280][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.05.30-18.12.15:350][184]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.05.30-18.12.24:601][227]BlueprintLog: New page: Compile BP_Camera
+[2020.05.30-18.12.24:870][227]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.05.30-18.12.30:231][802]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.12.30:253][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.30:253][802]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.30-18.12.30:254][802]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2020.05.30-18.12.30:538][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.05.30-18.12.30:538][802]LogPlayLevel: PlayLevel: Blueprint regeneration took 285 ms (1 blueprints)
+[2020.05.30-18.12.30:538][802]PIE: New page: PIE session: L_Test (May 30, 2020, 10:12:30 AM)
+[2020.05.30-18.12.30:538][802]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.30:543][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004031s)
+[2020.05.30-18.12.30:543][802]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.12.30:543][802]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2020.05.30-18.12.30:543][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.004986s)
+[2020.05.30-18.12.30:598][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.12.30:599][802]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.12.30:599][802]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.12.30:600][802]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.12.30:600][802]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.12.30:660][802]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.12.30:668][802]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.12.30:670][802]LogInit: FAudioDevice initialized.
+[2020.05.30-18.12.30:723][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.30:724][802]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.12.30:725][802]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.12.30
+[2020.05.30-18.12.30:725][802]LogWorld: Bringing up level for play took: 0.000846
+[2020.05.30-18.12.30:726][802]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2020.05.30-18.12.30:727][802]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.05.30-18.12.30:729][802]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test 0.639
+[2020.05.30-18.12.30:729][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.34:218][149]LogSlate: Window 'NightIsComing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.30-18.12.34:226][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.34:226][149]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.34:227][149]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.34:227][149]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.12.34:227][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.34:252][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.12.34:252][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.34:257][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.34:302][149]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.34:309][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.05.30-18.12.34:368][150]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.05.30-18.12.39:134][691]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.12.39:169][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.39:169][691]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.30-18.12.39:170][691]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2020.05.30-18.12.39:472][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.05.30-18.12.39:472][691]LogPlayLevel: PlayLevel: Blueprint regeneration took 303 ms (1 blueprints)
+[2020.05.30-18.12.39:472][691]PIE: New page: PIE session: L_Test (May 30, 2020, 10:12:39 AM)
+[2020.05.30-18.12.39:472][691]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.39:476][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004046s)
+[2020.05.30-18.12.39:477][691]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.12.39:477][691]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2020.05.30-18.12.39:477][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.005079s)
+[2020.05.30-18.12.39:546][691]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.12.39:547][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.12.39:547][691]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.12.39:547][691]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.12.39:611][691]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.12.39:618][691]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.12.39:620][691]LogInit: FAudioDevice initialized.
+[2020.05.30-18.12.39:672][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.39:672][691]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.12.39:674][691]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.12.39
+[2020.05.30-18.12.39:674][691]LogWorld: Bringing up level for play took: 0.000893
+[2020.05.30-18.12.39:674][691]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.05.30-18.12.39:676][691]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.05.30-18.12.39:677][691]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test -0.412
+[2020.05.30-18.12.39:678][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.43:464][ 76]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.43:464][ 76]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.43:464][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.43:465][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.43:465][ 76]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.43:494][ 76]LogSlate: Window 'NightIsComing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.30-18.12.43:502][ 76]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.43:502][ 76]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.12.43:503][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.43:530][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.12.43:530][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.43:535][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.12.43:586][ 76]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.12.43:592][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.05.30-18.12.43:648][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.05.30-18.12.46:807][441]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.12.46:828][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.12.46:828][441]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.30-18.12.46:830][441]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2020.05.30-18.12.47:135][441]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.05.30-18.12.47:136][441]LogPlayLevel: PlayLevel: Blueprint regeneration took 307 ms (1 blueprints)
+[2020.05.30-18.12.47:136][441]PIE: New page: PIE session: L_Test (May 30, 2020, 10:12:47 AM)
+[2020.05.30-18.12.47:136][441]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.12.47:140][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004411s)
+[2020.05.30-18.12.47:141][441]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.12.47:141][441]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2020.05.30-18.12.47:141][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.005480s)
+[2020.05.30-18.12.47:209][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.12.47:209][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.12.47:209][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.12.47:210][441]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.12.47:210][441]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.12.47:267][441]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.12.47:275][441]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.12.47:276][441]LogInit: FAudioDevice initialized.
+[2020.05.30-18.12.47:323][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.12.47:323][441]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.12.47:324][441]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.12.47
+[2020.05.30-18.12.47:324][441]LogWorld: Bringing up level for play took: 0.000867
+[2020.05.30-18.12.47:325][441]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.05.30-18.12.47:326][441]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.05.30-18.12.47:328][441]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test 1.238
+[2020.05.30-18.12.47:328][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.28:408][151]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.28:408][151]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.28:408][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.28:408][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.13.28:408][151]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.13.28:433][151]LogSlate: Window 'NightIsComing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.30-18.13.28:441][151]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.28:441][151]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.13.28:441][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.13.28:470][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.13.28:470][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.28:475][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.13.28:539][151]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.28:546][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.05.30-18.13.28:746][152]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.05.30-18.13.34:194][630]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.13.34:216][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.34:216][630]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.30-18.13.34:217][630]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2020.05.30-18.13.34:508][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.05.30-18.13.34:509][630]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (1 blueprints)
+[2020.05.30-18.13.34:509][630]PIE: New page: PIE session: L_Test (May 30, 2020, 10:13:34 AM)
+[2020.05.30-18.13.34:509][630]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.13.34:513][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004298s)
+[2020.05.30-18.13.34:514][630]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.13.34:515][630]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2020.05.30-18.13.34:515][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.005578s)
+[2020.05.30-18.13.34:572][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.13.34:572][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.13.34:572][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.13.34:573][630]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.13.34:573][630]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.13.34:636][630]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.13.34:644][630]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.13.34:646][630]LogInit: FAudioDevice initialized.
+[2020.05.30-18.13.34:704][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.13.34:705][630]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.13.34:706][630]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.13.34
+[2020.05.30-18.13.34:707][630]LogWorld: Bringing up level for play took: 0.000974
+[2020.05.30-18.13.34:707][630]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.05.30-18.13.34:709][630]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.05.30-18.13.34:711][630]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test 0.621
+[2020.05.30-18.13.34:711][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.46:082][780]LogSlate: Window 'NightIsComing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.30-18.13.46:093][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.46:093][780]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.13.46:093][780]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.46:093][780]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.13.46:093][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.13.46:118][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.13.46:118][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.46:123][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.13.46:202][780]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.13.46:209][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.05.30-18.13.46:268][781]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.05.30-18.13.50:618][270]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.30-18.13.50:640][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.13.50:640][270]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.30-18.13.50:641][270]LogPlayLevel: [PlayLevel] Compiling BP_Camera before play...
+[2020.05.30-18.13.50:924][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.05.30-18.13.50:925][270]LogPlayLevel: PlayLevel: Blueprint regeneration took 284 ms (1 blueprints)
+[2020.05.30-18.13.50:925][270]PIE: New page: PIE session: L_Test (May 30, 2020, 10:13:50 AM)
+[2020.05.30-18.13.50:925][270]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.13.50:929][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004103s)
+[2020.05.30-18.13.50:930][270]LogAIModule: Creating AISystem for world L_Test
+[2020.05.30-18.13.50:930][270]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2020.05.30-18.13.50:930][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_Test.L_Test to /Game/Levels/UEDPIE_0_L_Test.L_Test (0.005169s)
+[2020.05.30-18.13.50:985][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.30-18.13.50:986][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.30-18.13.50:986][270]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.30-18.13.50:986][270]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Name: Line (Elgato Sound Capture)
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Is Default: Yes
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: Channel Order:
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.30-18.13.51:043][270]LogAudioMixer: Display: 1: FrontRight
+[2020.05.30-18.13.51:051][270]LogAudioMixer: Display: Using Audio Device Line (Elgato Sound Capture)
+[2020.05.30-18.13.51:053][270]LogInit: FAudioDevice initialized.
+[2020.05.30-18.13.51:103][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.30-18.13.51:103][270]LogLoad: Game class is 'GM_Base_C'
+[2020.05.30-18.13.51:105][270]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_Test.L_Test up for play (max tick rate 0) at 2020.05.30-14.13.51
+[2020.05.30-18.13.51:105][270]LogWorld: Bringing up level for play took: 0.001064
+[2020.05.30-18.13.51:105][270]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.05.30-18.13.51:107][270]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.05.30-18.13.51:108][270]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_L_Test 1.019
+[2020.05.30-18.13.51:109][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.14.02:729][464]LogSlate: Window 'NightIsComing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.05.30-18.14.02:738][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.14.02:738][464]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_Test
+[2020.05.30-18.14.02:739][464]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.14.02:739][464]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2020.05.30-18.14.02:739][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.14.02:768][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.30-18.14.02:768][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/L_Test.L_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test' with GeneratedClass '/Game/Levels/L_Test.L_Test_C' with ClassGeneratedBy '/Game/Levels/L_Test.L_Test:PersistentLevel.L_Test'
+[2020.05.30-18.14.02:773][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.30-18.14.02:837][464]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.30-18.14.02:844][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.05.30-18.14.02:906][465]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.05.30-18.14.06:286][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.05.30-18.14.06:309][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/L_Test" FILE="J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/Levels/L_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.30-18.14.06:379][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.05.30-18.14.06:651][817]LogSavePackage: Moving 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Saved/L_TestA0FC882C446E8A62712120940EB74C6F.tmp' to 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/Levels/L_Test.umap'
+[2020.05.30-18.14.06:700][817]LogFileHelpers: Saving map 'L_Test' took 0.392
+[2020.05.30-18.14.06:701][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Common/BP_Camera" FILE="J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/Blueprints/Common/BP_Camera.uasset" SILENT=true
+[2020.05.30-18.14.06:757][817]LogSavePackage: Moving 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Saved/BP_Camera88AA8D9041A04670DEA8619BA7EB9E54.tmp' to 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/Blueprints/Common/BP_Camera.uasset'
+[2020.05.30-18.14.06:764][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/GM_Base" FILE="J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/GameMode/GM_Base.uasset" SILENT=true
+[2020.05.30-18.14.06:786][817]LogSavePackage: Moving 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Saved/GM_Base1B0523BE41FB63AF545D548ED5F0383E.tmp' to 'J:/Unreal Projects/Jam Games/NightIsComing/NightIsComing/Content/GameMode/GM_Base.uasset'
+[2020.05.30-18.14.06:825][817]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.30-18.14.06:825][817]LogContentValidation: Display: Validating World /Game/Levels/L_Test.L_Test
+[2020.05.30-18.14.06:825][817]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Common/BP_Camera.BP_Camera
+[2020.05.30-18.14.06:825][817]LogContentValidation: Display: Validating Blueprint /Game/GameMode/GM_Base.GM_Base
