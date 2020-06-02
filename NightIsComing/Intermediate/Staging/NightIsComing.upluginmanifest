@@ -1195,43 +1195,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Netcode Unit Test - Unreal Engine 4",
-				"Description": "Exploit unit tests for UE4 and some base UE4 games, based on the Netcode Unit Test framework",
-				"Category": "Networking",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "NUTUnrealEngine4",
-						"Type": "UncookedOnly",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "NetcodeUnitTest",
-						"Enabled": true
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
 			"Descriptor": 
 			{
@@ -1680,71 +1643,32 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/Oculus/OculusVR/OculusVR.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
 				"Version": 1,
-				"VersionName": "1.41.0",
-				"FriendlyName": "Oculus VR",
-				"Description": "Support for Oculus headsets and controllers",
-				"Category": "Virtual Reality",
-				"CreatedBy": "Oculus",
-				"CreatedByURL": "https://www.oculus.com/",
-				"DocsURL": "https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-engine/",
+				"VersionName": "1.0",
+				"FriendlyName": "PhysX Vehicles",
+				"Description": "PhysX Vehicle Integration",
+				"Category": "Physics",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
 				"MarketplaceURL": "",
-				"SupportURL": "https://forums.oculusvr.com/developer/categories/unreal",
+				"SupportURL": "",
 				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"SupportedTargetPlatforms": [
-					"Win32",
-					"Win64",
-					"Android"
-				],
+				"CanContainContent": false,
 				"Modules": [
 					{
-						"Name": "OculusHMD",
+						"Name": "PhysXVehicles",
 						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Android"
-						]
+						"LoadingPhase": "PreDefault"
 					},
 					{
-						"Name": "OculusInput",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Android"
-						]
-					},
-					{
-						"Name": "OculusMR",
-						"Type": "Runtime",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Android"
-						]
-					},
-					{
-						"Name": "OculusEditor",
-						"Type": "Editor",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ProceduralMeshComponent",
-						"Enabled": true
+						"Name": "PhysXVehiclesEditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault"
 					}
 				]
 			}
@@ -1781,37 +1705,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "PhysX Vehicles",
-				"Description": "PhysX Vehicle Integration",
-				"Category": "Physics",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "PhysXVehicles",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "PhysXVehiclesEditor",
-						"Type": "UncookedOnly",
-						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Runtime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
 			"Descriptor": 
 			{
@@ -1833,74 +1726,6 @@
 						"Name": "RuntimePhysXCooking",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "SteamVR",
-				"Description": "Support for the SteamVR API",
-				"Category": "Virtual Reality",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"SupportedTargetPlatforms": [
-					"Win32",
-					"Win64",
-					"Linux",
-					"Mac"
-				],
-				"Modules": [
-					{
-						"Name": "SteamVR",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux",
-							"Mac"
-						]
-					},
-					{
-						"Name": "SteamVRInput",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64"
-						]
-					},
-					{
-						"Name": "SteamVRInputDevice",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64"
-						]
-					},
-					{
-						"Name": "SteamVREditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Win64"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "ProceduralMeshComponent",
-						"Enabled": true
 					}
 				]
 			}
